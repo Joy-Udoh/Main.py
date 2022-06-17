@@ -1,0 +1,36 @@
+.grid-container{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 150px 250px;
+    grid-auto-rows: minmax(50px, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.grid-item-a{
+    grid-column: span 1;
+    background-color: aqua;
+    text-align: center;
+}
+
+.grid-item-b{
+    grid-row: span 1;
+    background-color: crimson;
+}
+
+.grid-item-c{
+    grid-row: span 2;
+    background-color: darksalmon;
+}
+
+.grid-item-d{
+    grid-column: span 1;
+    background-color: dimgrey;
+}
+
+.grid-item-e{
+    grid-column: span 1;
+    background-color: hotpink;
+}

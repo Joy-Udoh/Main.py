@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.main{
+    display: flex;
+}
+
+.container{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 1rem;
+    width: 600px;
+    margin: .5rem;
+    display: flex;
+    text-align: justify;
+    height: 50vh;
+}
+
+.container > div > img{
+  width: 50px;
+  height: 30px;
+}
+
+  .column1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 400px;
+    height: 60vh;
+  }
+  .column1 h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-stretch: ultra-condensed;
+    padding: 15px;
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+  }
+  .column1 p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+  }
+  .column1> button {
+    width: 150px;
+    border: none;
+    display: inline-block;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    margin: 1.5em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  .column1 > button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 2px solid white;
+  }
+
+  .column2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 400px;
+    height: 60vh;
+  }
+  .column2 h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-stretch: ultra-condensed;
+    padding: 15px;
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+    font-size: bold;
+  }
+  .column2 p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+  }
+  .column2 > button {
+    width: 150px;
+    border: none;
+    display: inline-block;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    margin: 1.5em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  .column2 > button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 2px solid white;
+  }
+
+  .column3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 400px;
+    height: 60vh;
+  }
+  .column3 h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-stretch: ultra-condensed;
+    padding: 15px;
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+    font-size: bold;
+    font-family: 'Big Shoulders Display' cursive;
+  }
+  .column3 p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+  }
+  .column3 > button {
+    width: 150px;
+    display: inline-block;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    margin: 1.5em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  .column3 > button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 2px solid white;
+  }
+  
+  
